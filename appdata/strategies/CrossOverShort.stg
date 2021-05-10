@@ -1,0 +1,19 @@
+{
+  "name": "CrossOverShort",
+  "indicators": {
+    "close": "close",
+    "sma10": "sma,10",
+    "sma20": "sma,20",
+    "macd": "macd,12,26,9"
+  },
+  "conditions": {
+    "cond1": "close stopLoss 7",
+    "cond2": "close stopGain 7",
+    "cond5": "sma10 crossedDown sma20",
+    "cond7": "close crossedDown sma20"
+  },
+  "rules": {
+    "entry": "cond7",
+    "exit": "cond1 or cond2"
+  }
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "LTI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "INDUSTOWER",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "CONCOR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "UBL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "INDIGO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MCDOWELL-N",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATACONSUM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BANKBARODA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "COLPAL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "AMBUJACEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MARICO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ADANIGREEN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "IGL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ICICIPRULI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "DMART",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ACC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TORNTPHARM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "GODREJCP",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NMDC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BIOCON",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "CADILAHC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "DABUR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PETRONET",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BERGEPAINT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ABBOTINDIA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PGHH",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "GICRE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "HDFCAMC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MOTHERSUMI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "LUPIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "HAVELLS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BOSCHLTD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PNB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BANDHANBNK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SIEMENS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "HINDPETRO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "OFSS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PIDILITIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MUTHOOTFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PFC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ADANITRANS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "BAJAJHLDNG",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "DLF",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "HINDZINC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ICICIGI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NAUKRI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ALKEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SBICARD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "AUROPHARMA",
+    "value": 0,
+    "selected": true
+  }
+]

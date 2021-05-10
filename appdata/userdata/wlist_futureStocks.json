@@ -1,0 +1,1592 @@
+[
+  {
+    "price": 1717.05,
+    "change": 1.24,
+    "oichange": 3.57,
+    "changePrev": -5.04,
+    "oichangePrev": 9.08,
+    "name": "AARTIIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1903.9,
+    "change": -0.04,
+    "oichange": -0.69,
+    "changePrev": 0.45,
+    "oichangePrev": 0.95,
+    "name": "ACC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1303.0,
+    "change": 0.32,
+    "oichange": 0.61,
+    "changePrev": 0.94,
+    "oichangePrev": -1.37,
+    "name": "ADANIENT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 774.45,
+    "change": 0.87,
+    "oichange": 0.2,
+    "changePrev": 3.64,
+    "oichangePrev": -2.81,
+    "name": "ADANIPORTS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3063.0,
+    "change": 5.35,
+    "oichange": 28.28,
+    "changePrev": 1.59,
+    "oichangePrev": 9.3,
+    "name": "ALKEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 788.45,
+    "change": 1.6,
+    "oichange": 0.73,
+    "changePrev": -0.56,
+    "oichangePrev": 3.38,
+    "name": "AMARAJABAT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 312.85,
+    "change": 0.19,
+    "oichange": 0.81,
+    "changePrev": -0.68,
+    "oichangePrev": -2.67,
+    "name": "AMBUJACEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 947.4,
+    "change": 0.61,
+    "oichange": 4.17,
+    "changePrev": 0.05,
+    "oichangePrev": 3.32,
+    "name": "APLLTD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3300.2,
+    "change": -0.32,
+    "oichange": 1.61,
+    "changePrev": -1.08,
+    "oichangePrev": -0.76,
+    "name": "APOLLOHOSP",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 221.0,
+    "change": 3.13,
+    "oichange": 2.87,
+    "changePrev": 0.33,
+    "oichangePrev": 4.34,
+    "name": "APOLLOTYRE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 115.3,
+    "change": 0.92,
+    "oichange": 3.43,
+    "changePrev": 0.18,
+    "oichangePrev": -0.12,
+    "name": "ASHOKLEY",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2554.3,
+    "change": 0.1,
+    "oichange": 2.27,
+    "changePrev": 0.1,
+    "oichangePrev": 0.99,
+    "name": "ASIANPAINT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 943.95,
+    "change": 1.63,
+    "oichange": 1.48,
+    "changePrev": -2.94,
+    "oichangePrev": 6.45,
+    "name": "AUBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1039.5,
+    "change": 2.61,
+    "oichange": 2.02,
+    "changePrev": 0.4,
+    "oichangePrev": 3.12,
+    "name": "AUROPHARMA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 722.6,
+    "change": 0.82,
+    "oichange": 1.35,
+    "changePrev": 0.14,
+    "oichangePrev": -0.96,
+    "name": "AXISBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3874.15,
+    "change": 0.19,
+    "oichange": 0.84,
+    "changePrev": -1.89,
+    "oichangePrev": -1.96,
+    "name": "BAJAJ-AUTO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 11515.0,
+    "change": 1.74,
+    "oichange": 2.34,
+    "changePrev": 2.63,
+    "oichangePrev": -0.11,
+    "name": "BAJAJFINSV",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 5518.0,
+    "change": 0.44,
+    "oichange": 0.78,
+    "changePrev": -0.63,
+    "oichangePrev": -0.55,
+    "name": "BAJFINANCE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1875.75,
+    "change": 2.35,
+    "oichange": 3.99,
+    "changePrev": 0.48,
+    "oichangePrev": -2.03,
+    "name": "BALKRISIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 301.35,
+    "change": 1.35,
+    "oichange": -5.64,
+    "changePrev": 0.88,
+    "oichangePrev": -5.12,
+    "name": "BANDHANBNK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 73.9,
+    "change": 4.75,
+    "oichange": 4.24,
+    "changePrev": -0.14,
+    "oichangePrev": -1.63,
+    "name": "BANKBARODA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 33283.55078125,
+    "change": 1.15,
+    "oichange": 13.7,
+    "changePrev": 0.23,
+    "oichangePrev": 2.02,
+    "name": "Nifty Bank",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1356.0,
+    "change": 0.34,
+    "oichange": 3.52,
+    "changePrev": -0.06,
+    "oichangePrev": -0.29,
+    "name": "BATAINDIA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 141.75,
+    "change": 2.79,
+    "oichange": 1.51,
+    "changePrev": -3.16,
+    "oichangePrev": -1.6,
+    "name": "BEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 718.1,
+    "change": 0.37,
+    "oichange": 0.99,
+    "changePrev": -0.2,
+    "oichangePrev": 0.59,
+    "name": "BERGEPAINT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 648.1,
+    "change": 1.77,
+    "oichange": -0.05,
+    "changePrev": -0.95,
+    "oichangePrev": -3.32,
+    "name": "BHARATFORG",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 571.6,
+    "change": 0.55,
+    "oichange": 0.73,
+    "changePrev": 1.74,
+    "oichangePrev": 0.12,
+    "name": "BHARTIARTL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 61.3,
+    "change": 6.06,
+    "oichange": -3.4,
+    "changePrev": -0.43,
+    "oichangePrev": -9.43,
+    "name": "BHEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 384.5,
+    "change": 0.88,
+    "oichange": 0.91,
+    "changePrev": 0.38,
+    "oichangePrev": -2.64,
+    "name": "BIOCON",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 13765.0,
+    "change": 0.97,
+    "oichange": 4.23,
+    "changePrev": 0.12,
+    "oichangePrev": 2.62,
+    "name": "BOSCHLTD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 448.7,
+    "change": 1.25,
+    "oichange": -0.38,
+    "changePrev": 2.11,
+    "oichangePrev": 4.18,
+    "name": "BPCL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3427.95,
+    "change": -0.96,
+    "oichange": 4.66,
+    "changePrev": 0.27,
+    "oichangePrev": -4.43,
+    "name": "BRITANNIA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 624.85,
+    "change": 3.59,
+    "oichange": 4.28,
+    "changePrev": 0.24,
+    "oichangePrev": 2.63,
+    "name": "CADILAHC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 149.7,
+    "change": 3.74,
+    "oichange": 4.82,
+    "changePrev": 0.59,
+    "oichangePrev": 1.23,
+    "name": "CANBK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 544.0,
+    "change": -4.38,
+    "oichange": 23.46,
+    "changePrev": -1.96,
+    "oichangePrev": 2.51,
+    "name": "CHOLAFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 892.75,
+    "change": 1.12,
+    "oichange": -3.31,
+    "changePrev": -0.16,
+    "oichangePrev": 2.8,
+    "name": "CIPLA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 143.4,
+    "change": 4.79,
+    "oichange": 8.16,
+    "changePrev": 1.67,
+    "oichangePrev": 3.34,
+    "name": "COALINDIA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3194.0,
+    "change": -5.52,
+    "oichange": 23.64,
+    "changePrev": -0.45,
+    "oichangePrev": 0.65,
+    "name": "COFORGE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1511.65,
+    "change": 0.02,
+    "oichange": 0.14,
+    "changePrev": 0.55,
+    "oichangePrev": -3.04,
+    "name": "COLPAL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 585.0,
+    "change": 1.92,
+    "oichange": 0.46,
+    "changePrev": -0.69,
+    "oichangePrev": 1.04,
+    "name": "CONCOR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 169.65,
+    "change": -0.5,
+    "oichange": -0.48,
+    "changePrev": -0.15,
+    "oichangePrev": 0.78,
+    "name": "CUB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 837.7,
+    "change": -0.05,
+    "oichange": -0.62,
+    "changePrev": -0.2,
+    "oichangePrev": 1.71,
+    "name": "CUMMINSIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 522.9,
+    "change": -2.19,
+    "oichange": 9.86,
+    "changePrev": -1.95,
+    "oichangePrev": -3.52,
+    "name": "DABUR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1794.8,
+    "change": -0.46,
+    "oichange": 2.5,
+    "changePrev": -4.66,
+    "oichangePrev": -0.35,
+    "name": "DEEPAKNTR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 4133.0,
+    "change": 2.58,
+    "oichange": 2.31,
+    "changePrev": -0.84,
+    "oichangePrev": -0.02,
+    "name": "DIVISLAB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 264.8,
+    "change": 2.66,
+    "oichange": -0.27,
+    "changePrev": 2.97,
+    "oichangePrev": 4.26,
+    "name": "DLF",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 5342.65,
+    "change": 3.25,
+    "oichange": 0.57,
+    "changePrev": 0.12,
+    "oichangePrev": 0.5,
+    "name": "DRREDDY",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2428.2,
+    "change": 0.46,
+    "oichange": 0.95,
+    "changePrev": -1.07,
+    "oichangePrev": -1.29,
+    "name": "EICHERMOT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1183.8,
+    "change": 1.82,
+    "oichange": 2.51,
+    "changePrev": 2.72,
+    "oichangePrev": -9.76,
+    "name": "ESCORTS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 184.3,
+    "change": 0.49,
+    "oichange": 0.46,
+    "changePrev": 0.33,
+    "oichangePrev": -3.31,
+    "name": "EXIDEIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 79.65,
+    "change": 2.58,
+    "oichange": 3.26,
+    "changePrev": -1.21,
+    "oichangePrev": 1.37,
+    "name": "FEDERALBNK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "FINNIFTY",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 154.0,
+    "change": 2.5,
+    "oichange": -0.34,
+    "changePrev": -0.6,
+    "oichangePrev": -2.32,
+    "name": "GAIL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 628.5,
+    "change": 6.26,
+    "oichange": 5.12,
+    "changePrev": 3.74,
+    "oichangePrev": 1.67,
+    "name": "GLENMARK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 24.1,
+    "change": 0.21,
+    "oichange": 0.11,
+    "changePrev": -1.03,
+    "oichangePrev": -1.04,
+    "name": "GMRINFRA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 704.55,
+    "change": 0.35,
+    "oichange": 0.78,
+    "changePrev": -1.11,
+    "oichangePrev": 2.24,
+    "name": "GODREJCP",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1247.15,
+    "change": 0.06,
+    "oichange": 3.44,
+    "changePrev": -0.65,
+    "oichangePrev": -0.95,
+    "name": "GODREJPROP",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 355.35,
+    "change": 2.29,
+    "oichange": 3.27,
+    "changePrev": -1.24,
+    "oichangePrev": 3.09,
+    "name": "GRANULES",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1441.15,
+    "change": -0.58,
+    "oichange": 1.03,
+    "changePrev": 0.12,
+    "oichangePrev": -0.08,
+    "name": "GRASIM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 532.0,
+    "change": 0.14,
+    "oichange": -0.41,
+    "changePrev": -0.69,
+    "oichangePrev": 1.09,
+    "name": "GUJGASLTD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1009.7,
+    "change": 0.77,
+    "oichange": 0.04,
+    "changePrev": -0.47,
+    "oichangePrev": -0.34,
+    "name": "HAVELLS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 911.05,
+    "change": -0.58,
+    "oichange": 0.69,
+    "changePrev": 0.04,
+    "oichangePrev": -0.75,
+    "name": "HCLTECH",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2555.55,
+    "change": 2.36,
+    "oichange": -0.17,
+    "changePrev": 2.74,
+    "oichangePrev": -2.15,
+    "name": "HDFC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2757.0,
+    "change": 1.41,
+    "oichange": 1.0,
+    "changePrev": -0.49,
+    "oichangePrev": 12.74,
+    "name": "HDFCAMC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1420.5,
+    "change": 0.41,
+    "oichange": 0.18,
+    "changePrev": 0.99,
+    "oichangePrev": -1.98,
+    "name": "HDFCBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 681.95,
+    "change": 1.38,
+    "oichange": 0.87,
+    "changePrev": 0.13,
+    "oichangePrev": 1.86,
+    "name": "HDFCLIFE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2846.45,
+    "change": -0.5,
+    "oichange": -0.69,
+    "changePrev": -1.8,
+    "oichangePrev": 2.07,
+    "name": "HEROMOTOCO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 415.55,
+    "change": 3.6,
+    "oichange": 2.34,
+    "changePrev": 3.93,
+    "oichangePrev": -0.91,
+    "name": "HINDALCO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 255.0,
+    "change": 1.41,
+    "oichange": 2.73,
+    "changePrev": 2.47,
+    "oichangePrev": 4.24,
+    "name": "HINDPETRO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2426.05,
+    "change": 0.62,
+    "oichange": -0.07,
+    "changePrev": 0.89,
+    "oichangePrev": -1.42,
+    "name": "HINDUNILVR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 181.45,
+    "change": 0.92,
+    "oichange": 0.4,
+    "changePrev": 1.81,
+    "oichangePrev": 0.89,
+    "name": "IBULHSGFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 616.5,
+    "change": 1.55,
+    "oichange": 1.76,
+    "changePrev": -0.18,
+    "oichangePrev": 0.04,
+    "name": "ICICIBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1475.6,
+    "change": 1.77,
+    "oichange": 2.34,
+    "changePrev": -0.26,
+    "oichangePrev": 1.84,
+    "name": "ICICIGI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 555.4,
+    "change": -1.13,
+    "oichange": 5.62,
+    "changePrev": -0.5,
+    "oichangePrev": 1.29,
+    "name": "ICICIPRULI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 8.05,
+    "change": -3.01,
+    "oichange": -1.89,
+    "changePrev": 0.0,
+    "oichangePrev": 0.85,
+    "name": "IDEA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 56.05,
+    "change": -1.23,
+    "oichange": 1.47,
+    "changePrev": -0.18,
+    "oichangePrev": -5.41,
+    "name": "IDFCFIRSTB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 523.2,
+    "change": 1.57,
+    "oichange": -0.4,
+    "changePrev": -0.91,
+    "oichangePrev": -0.09,
+    "name": "IGL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1670.4,
+    "change": 1.82,
+    "oichange": 1.03,
+    "changePrev": -1.34,
+    "oichangePrev": -2.02,
+    "name": "INDIGO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 944.25,
+    "change": 1.95,
+    "oichange": 1.85,
+    "changePrev": 0.14,
+    "oichangePrev": -1.4,
+    "name": "INDUSINDBK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 257.0,
+    "change": 0.94,
+    "oichange": 0.44,
+    "changePrev": -1.81,
+    "oichangePrev": 2.12,
+    "name": "INDUSTOWER",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1344.0,
+    "change": -0.63,
+    "oichange": 2.3,
+    "changePrev": -0.66,
+    "oichangePrev": 0.86,
+    "name": "INFY",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 97.1,
+    "change": 2.53,
+    "oichange": 6.11,
+    "changePrev": 2.27,
+    "oichangePrev": 2.68,
+    "name": "IOC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1725.15,
+    "change": 1.87,
+    "oichange": 4.7,
+    "changePrev": -1.84,
+    "oichangePrev": 0.49,
+    "name": "IRCTC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 205.7,
+    "change": 0.17,
+    "oichange": 1.33,
+    "changePrev": 1.28,
+    "oichangePrev": -1.27,
+    "name": "ITC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 491.5,
+    "change": 2.42,
+    "oichange": 1.67,
+    "changePrev": 4.58,
+    "oichangePrev": -0.68,
+    "name": "JINDALSTEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 761.6,
+    "change": 0.61,
+    "oichange": 2.23,
+    "changePrev": 3.72,
+    "oichangePrev": 0.69,
+    "name": "JSWSTEEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2731.0,
+    "change": -0.35,
+    "oichange": 3.25,
+    "changePrev": -3.08,
+    "oichangePrev": 3.51,
+    "name": "JUBLFOOD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1800.05,
+    "change": 1.11,
+    "oichange": 0.7,
+    "changePrev": -0.44,
+    "oichangePrev": -0.45,
+    "name": "KOTAKBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 87.25,
+    "change": 0.58,
+    "oichange": 2.38,
+    "changePrev": 1.94,
+    "oichangePrev": -1.76,
+    "name": "L\u0026TFH",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2914.0,
+    "change": 1.89,
+    "oichange": 8.1,
+    "changePrev": 0.65,
+    "oichangePrev": -1.79,
+    "name": "LALPATHLAB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 427.6,
+    "change": 1.14,
+    "oichange": 9.87,
+    "changePrev": 2.57,
+    "oichangePrev": 3.83,
+    "name": "LICHSGFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1367.85,
+    "change": 1.87,
+    "oichange": -0.45,
+    "changePrev": 0.21,
+    "oichangePrev": -0.36,
+    "name": "LT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 3709.05,
+    "change": -1.58,
+    "oichange": 3.5,
+    "changePrev": -1.15,
+    "oichangePrev": 4.01,
+    "name": "LTI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 2515.0,
+    "change": -0.25,
+    "oichange": 0.58,
+    "changePrev": -1.09,
+    "oichangePrev": -0.82,
+    "name": "LTTS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1222.0,
+    "change": 2.13,
+    "oichange": 4.46,
+    "changePrev": -0.15,
+    "oichangePrev": -2.18,
+    "name": "LUPIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 778.5,
+    "change": 1.45,
+    "oichange": 0.84,
+    "changePrev": 2.68,
+    "oichangePrev": -7.64,
+    "name": "M\u0026M",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 156.6,
+    "change": 1.36,
+    "oichange": 0.95,
+    "changePrev": -0.74,
+    "oichangePrev": 5.83,
+    "name": "M\u0026MFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 154.7,
+    "change": 1.41,
+    "oichange": 1.41,
+    "changePrev": 2.14,
+    "oichangePrev": 8.3,
+    "name": "MANAPPURAM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 470.0,
+    "change": -0.81,
+    "oichange": -0.38,
+    "changePrev": -0.4,
+    "oichangePrev": -2.61,
+    "name": "MARICO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 6715.35,
+    "change": 0.18,
+    "oichange": 0.29,
+    "changePrev": 0.55,
+    "oichangePrev": -0.48,
+    "name": "MARUTI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MCDOWELL-N",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MFSL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MGL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MINDTREE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MOTHERSUMI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MPHASIS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MRF",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "MUTHOOTFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NAM-INDIA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NATIONALUM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NAUKRI",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NAVINFLUOR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NESTLEIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "Nifty 50",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NMDC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "NTPC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ONGC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PAGEIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1699.55,
+    "change": 1.79,
+    "oichange": 0.33,
+    "changePrev": -1.79,
+    "oichangePrev": -1.84,
+    "name": "PEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 242.5,
+    "change": -0.16,
+    "oichange": 2.53,
+    "changePrev": -0.31,
+    "oichangePrev": 2.17,
+    "name": "PETRONET",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 113.2,
+    "change": 2.07,
+    "oichange": -2.37,
+    "changePrev": 1.88,
+    "oichangePrev": 2.29,
+    "name": "PFC",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 5409.0,
+    "change": 1.32,
+    "oichange": 2.21,
+    "changePrev": 0.23,
+    "oichangePrev": -1.87,
+    "name": "PFIZER",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 1826.8,
+    "change": 0.58,
+    "oichange": -0.42,
+    "changePrev": 0.9,
+    "oichangePrev": 1.75,
+    "name": "PIDILITIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PIIND",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PNB",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "POWERGRID",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "PVR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "RAMCOCEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "RBLBANK",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "RECLTD",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "RELIANCE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SAIL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SBILIFE",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SBIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SHREECEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SIEMENS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SRF",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SRTRANSFIN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SUNPHARMA",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "SUNTV",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATACHEM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATACONSUM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATAMOTORS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATAPOWER",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TATASTEEL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TCS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TECHM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TITAN",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TORNTPHARM",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TORNTPOWER",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TRENT",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "TVSMOTOR",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "UBL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ULTRACEMCO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "UPL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "VEDL",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "VOLTAS",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "WIPRO",
+    "value": 0,
+    "selected": true
+  },
+  {
+    "price": 0.0,
+    "change": 0.0,
+    "oichange": 0.0,
+    "changePrev": 0.0,
+    "oichangePrev": 0.0,
+    "name": "ZEEL",
+    "value": 0,
+    "selected": true
+  }
+]

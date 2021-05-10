@@ -1,0 +1,22 @@
+{
+  "name": "VolumePriceLong",
+  "indicators": {
+    "close": "close",
+    "open": "open",
+    "highestRocv": "highestRocv,14",
+    "highestClose": "highestClose,14",
+    "roc": "roc,14",
+    "rocv": "rocv,14"
+  },
+  "conditions": {
+    "cond11": "close stopLoss 3",
+    "cond12": "close stopGain 4",
+    "cond15": "close over open",
+    "cond18": "highestClose isEqual close",
+    "cond20": "highestRocv isEqual rocv"
+  },
+  "rules": {
+    "entry": "cond15 and cond18 and cond20",
+    "exit": "cond11 or cond12"
+  }
+}

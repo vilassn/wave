@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "AARTIIND",
+    "interval": "1d",
+    "strategy": "ChartLongStrategy",
+    "entryType": "BUY",
+    "exitType": "OPEN",
+    "entryDate": 1616666400,
+    "exitDate": 1616730900,
+    "profit": 0.92,
+    "entryPrice": 1315.6,
+    "exitPrice": 1327.65
+  }
+]

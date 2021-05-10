@@ -1,0 +1,22 @@
+{
+  "name": "VolumePriceShort",
+  "indicators": {
+    "close": "close",
+    "open": "open",
+    "highestRocv": "highestRocv,14",
+    "lowestClose": "lowestClose,14",
+    "roc": "roc,14",
+    "rocv": "rocv,14"
+  },
+  "conditions": {
+    "cond11": "close stopLoss 3",
+    "cond12": "close stopGain 4",
+    "cond17": "close under open",
+    "cond19": "lowestClose isEqual close",
+    "cond20": "highestRocv isEqual rocv"
+  },
+  "rules": {
+    "entry": "cond17 and cond19 and cond20",
+    "exit": "cond11 or cond12"
+  }
+}

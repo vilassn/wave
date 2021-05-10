@@ -1,0 +1,18 @@
+{
+  "name": "SuperTrendShort",
+  "indicators": {
+    "close": "close",
+    "macd": "macd,12,26,9",
+    "superTrend": "superTrend,7,3"
+  },
+  "conditions": {
+    "cond1": "close stopLoss 7",
+    "cond2": "close stopGain 7",
+    "cond3": "close crossedDown superTrend",
+    "cond4": "close crossedUp superTrend"
+  },
+  "rules": {
+    "entry": "cond3",
+    "exit": "cond1 or cond2 or cond4"
+  }
+}

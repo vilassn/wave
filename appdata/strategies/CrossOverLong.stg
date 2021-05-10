@@ -1,0 +1,19 @@
+{
+  "name": "CrossOverLong",
+  "indicators": {
+    "close": "close",
+    "sma10": "sma,10",
+    "sma20": "sma,20",
+    "macd": "macd,12,26,9"
+  },
+  "conditions": {
+    "cond1": "close stopLoss 7",
+    "cond2": "close stopGain 7",
+    "cond6": "sma10 crossedUp sma20",
+    "cond8": "close crossedUp sma20"
+  },
+  "rules": {
+    "entry": "cond8",
+    "exit": "cond1 or cond2"
+  }
+}
