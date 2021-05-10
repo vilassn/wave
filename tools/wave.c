@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h>
 
 #ifdef __linux__
 #include <sys/utsname.h>
@@ -17,20 +18,37 @@ int main() {
 
   struct utsname my_uname;
   if (uname( & my_uname) == 0 && strcmp(OS_LINUX_64BIT, my_uname.machine) == 0) {
-    printf("64-bit system detected\n");
-    system("runtime/jre_linux64/bin/java --module-path runtime/jre_win64/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime/bin/wave > /dev/null 2>&1 &");
+	  
+	printf("64-bit system detected\n");
+	
+	FILE *file = fopen("runtime/jre_linux64/lib/modules", "r");
+    if (file == NULL )
+		system("runtime/jre_linux64/7-Zip/7zz x runtime/jre_linux64/lib/modules.zip -oruntime/jre_linux64/lib/");
+	else
+		fclose(file);
+	
+	system("runtime/jre_linux64/bin/java --module-path runtime/jre_linux64/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime/bin/wave > /dev/null 2>&1 &");
   } else {
     printf("32-bit system detected\n");
-    system("runtime/jre_linux32/bin/java --module-path runtime/jre_win32/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime/bin/wave > /dev/null 2>&1 &");
+    system("runtime/jre_linux32/bin/java --module-path runtime/jre_linux32/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime/bin/wave > /dev/null 2>&1 &");
   }
   
 #endif
 
+
 #if defined _WIN32 || defined _WIN64
 
   char * env = getenv(OS_WIN_64BIT);
-  if (env != NULL) {
+  if (env != NULL){
+
     printf("64-bit system detected\n");
+	
+    FILE *file = fopen("runtime\\jre_win64\\lib\\modules", "r");
+    if (file == NULL )
+		system("runtime\\jre_win64\\7-Zip\\7z.exe x runtime\\jre_win64\\lib\\modules.zip -oruntime\\jre_win64\\lib\\");
+	else
+		fclose(file);
+
     system("start runtime\\jre_win64\\bin\\javaw.exe --module-path runtime\\jre_win64\\javafx-sdk-16\\lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime\\bin\\wave > nul 2>&1 &");
   } else {
     printf("32-bit system detected\n");
