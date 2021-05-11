@@ -1130,11 +1130,11 @@
     "selected": true
   },
   {
-    "price": 0.0,
-    "change": 0.0,
-    "oichange": 0.0,
-    "changePrev": 0.0,
-    "oichangePrev": 0.0,
+    "price": 14942.35,
+    "change": 0.8,
+    "oichange": -0.13,
+    "changePrev": 0.67,
+    "oichangePrev": 0.55,
     "name": "Nifty 50",
     "value": 0,
     "selected": true
