@@ -52,7 +52,7 @@ int main() {
 	//	fclose(file);
 
     // Join file split by command: split -b 50MB modules modules_
-	system("copy /b runtime\\jre_win64\\lib\\modules_aa+runtime\\jre_win64\\lib\\modules_ab+runtime\\jre_win64\\lib\\modules_ac runtime\\jre_win64\\lib\\modules > nul 2>&1 &");
+	system("copy /b runtime\\jre_win64\\lib\\modules_aa+runtime\\jre_win64\\lib\\modules_ab+runtime\\jre_win64\\lib\\modules_ac runtime\\jre_win64\\lib\\modules");
     system("start runtime\\jre_win64\\bin\\javaw.exe --module-path runtime\\jre_win64\\javafx-sdk-16\\lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime\\bin\\wave > nul 2>&1 &");
   } else {
     printf("32-bit system detected\n");
