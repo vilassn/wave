@@ -40,6 +40,6 @@ sed -i 's/00000//g' $CSV_FILE
 
 # Sort fo28AUG2019bhav.csv to fix OI indicator exception
 echo "Start of script..."
-#sort_bhavcopy1 appdata/quotes/historical/2019/fo/fo28AUG2019bhav.csv
+sort_bhavcopy1 appdata/quotes/historical/2019/fo/fo28AUG2019bhav.csv
 sort_bhavcopy2 appdata/quotes/historical/2021/fo/fo30MAR2021bhav.csv
 echo "End of script..."
