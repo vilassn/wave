@@ -1,5 +1,4 @@
 #################### WAVE #################### 
-
 Wave is a technical analysis software with charting, back-testing, 
 scanning of stocks/futures and free quotes features. 
 
@@ -15,8 +14,4 @@ It is developed by νίĻάş ήίήάώέ to learn and improve trading skills.
 
 Visit website for more information: 
 https://sites.google.com/view/wave4traders
-
-Extract below file to run:
-git lfs pull
-
 #################### END #####################

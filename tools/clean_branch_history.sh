@@ -1,5 +1,7 @@
 #!/bin/sh
 
+git config credential.helper 'cache --timeout=600'
+
 OLD_BRANCH=$1
 
 # Checkout to a temporary branch:
