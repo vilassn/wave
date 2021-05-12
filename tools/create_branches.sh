@@ -19,7 +19,7 @@ git push -u origin linux
 git checkout master
 git branch -d win
 git checkout -b win
-git rm -r tools .gitignore wave.exe runtime/jre_linux*
+git rm -r tools .gitignore wave.run runtime/jre_linux*
 git commit -am "updated data"
 git push origin --delete win
 git push -u origin win
