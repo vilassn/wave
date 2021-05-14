@@ -4,9 +4,11 @@
 
 git config credential.helper 'cache --timeout=600'
 
-# create linux branch
+# locally checkout branch to be created
 git checkout win
 git checkout linux
+
+# create linux branch
 git checkout master
 git branch -d linux
 git checkout -b linux
@@ -24,6 +26,7 @@ git commit -am "updated data"
 git push origin --delete win
 git push -u origin win
 
+# checkout master branch back
 git checkout master
 
 # undo changes

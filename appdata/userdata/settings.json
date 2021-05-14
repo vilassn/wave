@@ -491,7 +491,7 @@
       },
       "name": "CombinedOI : {period\u003d0}",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "type": "IND_DONCHIAN",

@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "BHARTIARTL",
+    "interval": "1d",
+    "strategy": "ChartLongStrategy",
+    "entryType": "BUY",
+    "exitType": "OPEN",
+    "entryDate": 1620813600,
+    "exitDate": 1620986400,
+    "profit": -0.24,
+    "entryPrice": 561.75,
+    "exitPrice": 560.4
+  }
+]

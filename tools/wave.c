@@ -20,15 +20,14 @@ int main() {
   if (uname( & my_uname) == 0 && strcmp(OS_LINUX_64BIT, my_uname.machine) == 0) {
 	  
 	printf("64-bit system detected\n");
-	
-	//FILE *file = fopen("runtime/jre_linux64/lib/modules", "r");
-    //if (file == NULL )
-	//	system("runtime/jre_linux64/7-Zip/7zz x runtime/jre_linux64/lib/modules.zip -oruntime/jre_linux64/lib/");
-	//else
-	//	fclose(file);
-	
+
 	// Join file split by command: split -b 50MB modules modules_
-	system("cat runtime/jre_linux64/lib/modules_aa runtime/jre_linux64/lib/modules_ab runtime/jre_linux64/lib/modules_ac > runtime/jre_linux64/lib/modules");
+	FILE *file = fopen("runtime/jre_linux64/lib/modules", "r");
+    if (file == NULL )
+        system("cat runtime/jre_linux64/lib/modules_aa runtime/jre_linux64/lib/modules_ab runtime/jre_linux64/lib/modules_ac > runtime/jre_linux64/lib/modules");
+	else
+		fclose(file);
+	
 	system("runtime/jre_linux64/bin/java --module-path runtime/jre_linux64/javafx-sdk-16/lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime/bin/wave > /dev/null 2>&1 &");
   } else {
     printf("32-bit system detected\n");
@@ -44,15 +43,14 @@ int main() {
   if (env != NULL){
 
     printf("64-bit system detected\n");
-	
-    //FILE *file = fopen("runtime\\jre_win64\\lib\\modules", "r");
-    //if (file == NULL )
-	//	system("runtime\\jre_win64\\7-Zip\\7z.exe x runtime\\jre_win64\\lib\\modules.zip -oruntime\\jre_win64\\lib\\");
-	//else
-	//	fclose(file);
 
-    // Join file split by command: split -b 50MB modules modules_
-	system("copy /b runtime\\jre_win64\\lib\\modules_aa+runtime\\jre_win64\\lib\\modules_ab+runtime\\jre_win64\\lib\\modules_ac runtime\\jre_win64\\lib\\modules");
+	// Join file split by command: split -b 50MB modules modules_
+    FILE *file = fopen("runtime\\jre_win64\\lib\\modules", "r");
+    if (file == NULL )
+        system("copy /b runtime\\jre_win64\\lib\\modules_aa+runtime\\jre_win64\\lib\\modules_ab+runtime\\jre_win64\\lib\\modules_ac runtime\\jre_win64\\lib\\modules");
+	else
+		fclose(file);
+
     system("start runtime\\jre_win64\\bin\\javaw.exe --module-path runtime\\jre_win64\\javafx-sdk-16\\lib --add-modules javafx.controls,javafx.fxml,javafx.web -jar runtime\\bin\\wave > nul 2>&1 &");
   } else {
     printf("32-bit system detected\n");
