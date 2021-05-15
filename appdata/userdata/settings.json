@@ -355,6 +355,16 @@
       "selected": false
     },
     {
+      "type": "IND_SRPCOI",
+      "params": {
+        "high": 1,
+        "mid": 1
+      },
+      "name": "SupResPCOI : {high\u003d1, mid\u003d1}",
+      "value": 0,
+      "selected": true
+    },
+    {
       "type": "IND_MACD",
       "params": {
         "fast": 12,
@@ -382,7 +392,7 @@
       },
       "name": "Fisher : {period\u003d14, signal\u003d3}",
       "value": 0,
-      "selected": true
+      "selected": false
     },
     {
       "type": "IND_RSI",
@@ -463,7 +473,7 @@
       },
       "name": "OBV : {period\u003d14}",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "type": "IND_ROCV",
@@ -491,7 +501,7 @@
       },
       "name": "CombinedOI : {period\u003d0}",
       "value": 0,
-      "selected": true
+      "selected": false
     },
     {
       "type": "IND_DONCHIAN",
@@ -586,8 +596,8 @@
       "selected": false
     },
     {
-      "watchListType": "LIST_FUTURES",
-      "name": "Future Stocks",
+      "watchListType": "LIST_FNO",
+      "name": "FnO Stocks",
       "value": 0,
       "selected": true
     },
