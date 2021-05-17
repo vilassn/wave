@@ -245,13 +245,13 @@
       "classpath": "com.wave4traders.strategies.SuperTrendLongStrategy",
       "name": "SuperTrendLong",
       "value": 0,
-      "selected": true
+      "selected": false
     },
     {
       "classpath": "com.wave4traders.strategies.SuperTrendShortStrategy",
       "name": "SuperTrendShort",
       "value": 0,
-      "selected": true
+      "selected": false
     },
     {
       "classpath": "com.wave4traders.strategies.OpenLowLongStrategy",
@@ -501,7 +501,7 @@
       },
       "name": "CombinedOI : {period\u003d0}",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "type": "IND_DONCHIAN",
