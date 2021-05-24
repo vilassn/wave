@@ -1,3 +1,4 @@
-*.log
+*.log.*
 modules
 userdata_dev
+realtime

@@ -245,13 +245,13 @@
       "classpath": "com.wave4traders.strategies.SuperTrendLongStrategy",
       "name": "SuperTrendLong",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "classpath": "com.wave4traders.strategies.SuperTrendShortStrategy",
       "name": "SuperTrendShort",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "classpath": "com.wave4traders.strategies.OpenLowLongStrategy",
@@ -352,7 +352,7 @@
       },
       "name": "SuperTrend : {period\u003d7, multiplier\u003d3}",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "type": "IND_SRPCOI",
@@ -392,7 +392,7 @@
       },
       "name": "Fisher : {period\u003d14, signal\u003d3}",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "type": "IND_RSI",
@@ -473,7 +473,7 @@
       },
       "name": "OBV : {period\u003d14}",
       "value": 0,
-      "selected": true
+      "selected": false
     },
     {
       "type": "IND_ROCV",
@@ -663,7 +663,7 @@
     },
     "ST_PRACTISEDATE": {
       "name": "PraticeDate",
-      "value": 20190525,
+      "value": 20210524,
       "selected": false
     },
     "ST_USERID": {

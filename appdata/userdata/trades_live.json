@@ -1,14 +1,26 @@
 [
   {
+    "symbol": "Nifty Bank",
+    "interval": "1d",
+    "strategy": "ChartLongStrategy",
+    "entryType": "BUY",
+    "exitType": "OPEN",
+    "entryDate": 1621591200,
+    "exitDate": 1621850400,
+    "profit": 0.97,
+    "entryPrice": 34606.9,
+    "exitPrice": 34943.6
+  },
+  {
     "symbol": "BHARTIARTL",
     "interval": "1d",
     "strategy": "ChartLongStrategy",
     "entryType": "BUY",
     "exitType": "OPEN",
-    "entryDate": 1620813600,
-    "exitDate": 1620986400,
-    "profit": -0.24,
-    "entryPrice": 561.75,
-    "exitPrice": 560.4
+    "entryDate": 1621591200,
+    "exitDate": 1621850400,
+    "profit": -0.78,
+    "entryPrice": 530.95,
+    "exitPrice": 526.8
   }
 ]
