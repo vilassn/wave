@@ -1,0 +1,119 @@
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.bhavmgr.NSEBhavDataHandler loadBhavcopy] Loading Data... From 20200728 To 20210524
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-01T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-02T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-08T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-09T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-15T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-16T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-22T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-23T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-29T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-08-30T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-05T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-06T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-12T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-13T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-19T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-20T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-26T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-09-27T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2020-10-02T00:00 Gandhi Jayanti, Friday
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-03T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-04T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-10T00:00
+[2021-05-24 02:06:39] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-11T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-17T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-18T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-24T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-25T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-10-31T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-01T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-07T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-08T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-14T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-15T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2020-11-16T00:00 Diwali, Monday
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-21T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-22T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-28T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-11-29T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2020-11-30T00:00 Gurunanak Jayanti, Monday
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-05T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-06T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-12T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-13T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.utils.ATUtil printTrades] ############ Live Trades Summary ################
+
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.utils.ATUtil printTrades] Total Trades: 1, Overall Profit: 0.0%,
+
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-19T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-20T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2020-12-25T00:00 Christmas, Friday
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-26T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2020-12-27T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-02T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-03T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-09T00:00
+[2021-05-24 02:06:40] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-10T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-16T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-17T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-23T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-24T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-01-26T00:00 Republic Day, Tuesday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-30T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-01-31T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-06T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-07T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-13T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-14T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-20T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-21T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-27T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-02-28T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-06T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-07T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-03-11T00:00 Mahashivratri, Thursday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-13T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-14T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-20T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-21T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-27T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-03-28T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-03-29T00:00 Holi, Monday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-04-02T00:00 Good Friday, Friday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-03T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-04T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-10T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-11T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-04-14T00:00 Dr.Baba Saheb Ambedkar Jayanti, Wednesday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-17T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-18T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-04-21T00:00 Ram Navami, Wednesday
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-24T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-04-25T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-01T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-02T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-08T00:00
+[2021-05-24 02:06:41] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-09T00:00
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Holiday: 2021-05-13T00:00 Id-Ul-Fitr (Ramzan Id), Thursday
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-15T00:00
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-16T00:00
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-22T00:00
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.HolidayManager isHoliday] Weekend: 2021-05-23T00:00
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.bhavmgr.NSEBhavDataHandler loadBhavcopy] Done.
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.managers.TimeSeriesManager getTimeSeries] BarSeries last updated: 21-05-2021 03:30 pm Nifty 50
+[2021-05-24 02:06:42] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Downloading: https://zerodha.com/margin-calculator/Futures
+[2021-05-24 02:06:43] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Done.
+[2021-05-24 02:06:43] [INFO] [com.wave4traders.bhavmgr.MarginDataHandler parseMarginFile] Margin Last updated: 21 May 2021
+[2021-05-24 02:06:44] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] Old chart is updated for Nifty 50
+[2021-05-24 02:07:05] [INFO] [com.wave4traders.managers.TimeSeriesManager getTimeSeries] BarSeries last updated: 21-05-2021 03:30 pm BHARTIARTL
+[2021-05-24 02:07:05] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] New chart is added for BHARTIARTL
+[2021-05-24 02:07:07] [INFO] [com.wave4traders.managers.TimeSeriesManager getTimeSeries] BarSeries last updated: 21-05-2021 03:30 pm BHARTIARTL
+[2021-05-24 02:07:07] [INFO] [com.wave4traders.managers.TradesManager addCloseOrUpdateChartTrade] BUY Trade of Chart Strategy BHARTIARTL
+[2021-05-24 02:07:07] [INFO] [com.wave4traders.utils.ATUtil printTrades] ############ Live Trades Summary ################
+
+[2021-05-24 02:07:07] [INFO] [com.wave4traders.utils.ATUtil printTrades] Total Trades: 2, Overall Profit: 0.0%,
+
+[2021-05-24 02:07:54] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Downloading: https://github.com/vilassn/wave/raw/master/tools/keys/787668753177756c646f343536437b7c7d31667270
+[2021-05-24 02:07:55] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Done.
+[2021-05-24 02:08:18] [INFO] [com.wave4traders.AlgoTrader stop] AlgoTrader is closed...!

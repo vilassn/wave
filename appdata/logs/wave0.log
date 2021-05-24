@@ -1,0 +1,14 @@
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Processing bhavcopy...
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Processing date... 2021-05-25
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Done.
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil printTrades] ############ Live Trades Summary ################
+
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil printTrades] Total Trades: 2, Overall Profit: 0.19%,
+
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.managers.BarSeriesManager getBarSeries] BarSeries last updated: 24-05-2021 03:30 pm Nifty 50
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Downloading: https://zerodha.com/margin-calculator/Futures
+[2021-05-25 01:17:58] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Done.
+[2021-05-25 01:17:58] [INFO] [com.wave4traders.datafeeds.MarginZrdha parseMarginFile] Margin Last updated: 24 May 2021
+[2021-05-25 01:17:59] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] Old chart is updated for Nifty 50
+[2021-05-25 01:18:01] [INFO] [com.wave4traders.managers.BarSeriesManager getBarSeries] BarSeries last updated: 24-05-2021 03:30 pm NTPC
+[2021-05-25 01:18:01] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] New chart is added for NTPC
