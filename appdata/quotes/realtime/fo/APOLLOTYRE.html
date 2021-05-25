@@ -12,15 +12,6 @@
 			var max_limit_interstitial_page_check = 6;
 			var interstitial_page_position = [1, 3, 5];
 
-							function load_vignette_solution_script_file() {
-					let head = document.querySelector( 'head' );
-					let script = document.createElement('script');
-					script.id = 'ads-vignette-solution';
-					script.setAttribute( 'data-ad-client', 'ca-pub-5242205118131617' );
-					script.async = 'true';
-					script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-					head.appendChild( script );
-				}
 			
 			function getCurrentDate() {
 
@@ -98,10 +89,6 @@
 
 						/* console.log( 'Added Cookie', interstitial_cookie_value ); */
 
-													/* Vignette Solution -> Start */
-								/* console.log( 'Call vignette solution script for Page : ', pageCount ); */
-								load_vignette_solution_script_file();
-							/* End <- Vignette Solution */
 						
 					} else {
 						var interstitial_cookie_value = JSON.parse( interstitial_cookie_object );
@@ -129,10 +116,8 @@
 
 									createInterstitialCookie( interstitial_cookie_name, JSON.stringify( interstitial_cookie_value ), '1' );	/* Update Cookie */
 
-																			/* Vignette Solution -> Start */
-											/* console.log( 'Call vignette solution script for Page : ', pageCount ); */
-											load_vignette_solution_script_file();
-										/* End <- Vignette Solution */
+																			/* console.log( 'Call mc_wap_interstitial_dfp.php' ); */
+										window.location.href = "https://www.moneycontrol.com/promo/mc_wap_interstitial_dfp.php";
 																	} else {
 									interstitial_cookie_value[ pageCount ] = current_page;
 
@@ -140,17 +125,9 @@
 
 									createInterstitialCookie( interstitial_cookie_name, JSON.stringify( interstitial_cookie_value ), '1' );	/* Update Cookie */
 
-																			/* Vignette Solution -> Start */
-											/* console.log( 'Call vignette solution script for Page : ', pageCount ); */
-											load_vignette_solution_script_file();
-										/* End <- Vignette Solution */
 																	}
 							} else {
 								console.log( 'vignette moneycontrol' );
-																	/* Vignette Solution -> Start */
-										/* console.log( 'Call vignette solution script for Page : ', pageCount ); */
-										load_vignette_solution_script_file();
-									/* End <- Vignette Solution */
 															}
 						}
 					}
@@ -1512,19 +1489,19 @@ function GAEventTracker(category,action,opt_label) {ga('send', 'event', ''+categ
 										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/statebankindia/SBI" title="SBI">SBI&nbsp;<span>INE062A01020, SBIN, 500112</span></a>
 									</li>
 									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/icicibank/ICI02" title="ICICI Bank">ICICI Bank&nbsp;<span>INE090A01021, ICICIBANK, 532174</span></a>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries/amararajabatteries/ARB" title="Amara Raja Batt">Amara Raja Batt&nbsp;<span>INE885A01032, AMARAJABAT, 500008</span></a>
+									</li>
+									<li>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/punjabnationalbank/PNB05" title="PNB">PNB&nbsp;<span>INE160A01022, PNB, 532461</span></a>
 									</li>
 									<li>
 										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/yesbank/YB" title="Yes Bank">Yes Bank&nbsp;<span>INE528G01035, YESBANK, 532648</span></a>
 									</li>
 									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03" title="Tata Motors">Tata Motors&nbsp;<span>INE155A01022, TATAMOTORS, 500570</span></a>
-									</li>
-									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/punjabnationalbank/PNB05" title="PNB">PNB&nbsp;<span>INE160A01022, PNB, 532461</span></a>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/food-processing/britanniaindustries/BI" title="Britannia">Britannia&nbsp;<span>INE216A01030, BRITANNIA, 500825</span></a>
 									</li></ul>
 							</div>
-						</div><!-- Updated @ 2021-05-24 17:10:05 -->									<!-- End <- Trending search ooptions -->
+						</div><!-- Updated @ 2021-05-25 11:40:08 -->									<!-- End <- Trending search ooptions -->
 
 									<!-- auto suggest box-->
 									<div class="sugBox" id="autosugg_mc1" style="display:none;">
@@ -3221,7 +3198,7 @@ function dfpGutter_getCookie(e){
 <!-- End <- MC Mega Menu - 16 - Subscription -->
 								</li>
 														<li  id="menu_l1_be_a_pro"  cid="12" class="menu_l1  bapro">
-									<a href="https://www.moneycontrol.com/promos/pro.php" title="Be a PRO"   target="_blank"  onclick="javascript:GAEventTracker( 'Pro-Discount', 'Menu', document.title );">
+									<a href="https://www.moneycontrol.com/promos/pro.php" title="Be a PRO"   onclick="javascript:GAEventTracker( 'Pro-Discount', 'Menu', document.title );">
 										Be a PRO									</a>
 																	</li>
 											</ul>
@@ -3349,19 +3326,19 @@ function dfpGutter_getCookie(e){
 										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/statebankindia/SBI" title="SBI">SBI&nbsp;<span>INE062A01020, SBIN, 500112</span></a>
 									</li>
 									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/icicibank/ICI02" title="ICICI Bank">ICICI Bank&nbsp;<span>INE090A01021, ICICIBANK, 532174</span></a>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/auto-ancillaries/amararajabatteries/ARB" title="Amara Raja Batt">Amara Raja Batt&nbsp;<span>INE885A01032, AMARAJABAT, 500008</span></a>
+									</li>
+									<li>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/punjabnationalbank/PNB05" title="PNB">PNB&nbsp;<span>INE160A01022, PNB, 532461</span></a>
 									</li>
 									<li>
 										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-private-sector/yesbank/YB" title="Yes Bank">Yes Bank&nbsp;<span>INE528G01035, YESBANK, 532648</span></a>
 									</li>
 									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03" title="Tata Motors">Tata Motors&nbsp;<span>INE155A01022, TATAMOTORS, 500570</span></a>
-									</li>
-									<li>
-										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/punjabnationalbank/PNB05" title="PNB">PNB&nbsp;<span>INE160A01022, PNB, 532461</span></a>
+										<a onclick='GAEventTracker("SEARCHUSAGE", "MCTRENDS", "STKCLICK" )' href="https://www.moneycontrol.com/india/stockpricequote/food-processing/britanniaindustries/BI" title="Britannia">Britannia&nbsp;<span>INE216A01030, BRITANNIA, 500825</span></a>
 									</li></ul>
 							</div>
-						</div><!-- Updated @ 2021-05-24 17:10:05 -->						</div>
+						</div><!-- Updated @ 2021-05-25 11:40:08 -->						</div>
 						<!-- trending search ooptions end --> 
 
 						<!-- auto suggest box-->
@@ -3789,12 +3766,12 @@ function dfpGutter_getCookie(e){
 
 <script type="text/javascript" src="https://stat2.moneycontrol.com/mcjs/common/moneycontrol_header.js?v=1.2" async="async"></script>
 
-<script type="text/javascript" src="https://stat2.moneycontrol.com/mcjs/common/slick.min.js?v=1.0"></script>
-				<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/common/mainStyle_other.css?v=2.03" />
+<script type="text/javascript" src="https://stat4.moneycontrol.com/mcjs/common/slick.min.js?v=1.0"></script>
+				<link rel="stylesheet" type="text/css" href="https://stat4.moneycontrol.com/mccss/common/mainStyle_other.css?v=2.03" />
 		<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/headfoot/mc_header.css?v=1.5" />
 		<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/headfoot/mc_footer.css?v=1.1" />
 		<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/headfoot/mobile_footer.css?v=1.2" />
-				<link rel="stylesheet" type="text/css" href="https://stat4.moneycontrol.com/mccss/markets/market_style12.css?ver=2.03" />
+				<link rel="stylesheet" type="text/css" href="https://stat2.moneycontrol.com/mccss/markets/market_style12.css?ver=2.03" />
 	<!-- commonstore|commonfiles|header_tag_manager  -->
 	<!-- Facebook Pixel Code -> Start -->
 	<script>
@@ -4270,13 +4247,13 @@ else{$("#"+a).fadeOut();}
 									<div class='FL gL_10 bseArr PT4 w70'>
 											<div class='FR MT2 live'>LIVE</div>
 											<div class='FR PR3'><span class='bl_15'><strong>NSE</strong></span></div>
-											<div class='CL' id='bse_upd_time' style='font-size:11px;line-height:2;'>May 24, 15:30</div>
+											<div class='CL' id='bse_upd_time' style='font-size:11px;line-height:2;'>May 25, 11:39</div>
 									</div>
 									
 									<div class='FL ML10 MT5'>
-										<p class='gr_28 FL'><strong>219.30</strong></p>
+										<p class='gr_28 FL'><strong>219.50</strong></p>
 										<div class='FL PL3 PR3 MT12'><img src='https://images.moneycontrol.com/images/stocks/fno/grnarw.gif' border='0'></div>
-										<p class='gr_20 FL MT5 ML5'><strong>0.95</strong> (0.44%)</p>
+										<p class='gr_20 FL MT5 ML5'><strong>0.25</strong> (0.11%)</p>
 									</div>
 
 									<div class='CL'></div>
@@ -4291,59 +4268,59 @@ else{$("#"+a).fadeOut();}
 							<table width="100%" class="tbldata">
 								<tr>
 									<th>Open Price</th>
-									<td>219.25</td>
+									<td>220.00</td>
 								</tr>
 								<tr>
 									<th>High Price</th>
-									<td>221.15</td>
+									<td>221.25</td>
 								</tr>
 								<tr>
 									<th>Low Price</th>
-									<td>215.55</td>
+									<td>218.10</td>
 								</tr>
 								<tr>
 									<th>Prev. Close</th>
-									<td>218.35</td>
+									<td>219.25</td>
 								</tr>
 								<tr>
 									<th>Spot Price</th>
-									<td>218.95</td>
+									<td>219.40</td>
 								</tr>
 								<tr>
 									<th>Open Int PCR</th>
-									<td>0.35</td>
+									<td>0.36</td>
 								</tr>
 								<tr>
 									<th>Prev OI PCR</th>
-									<td>0.29</td>
+									<td>0.35</td>
 								</tr>
 								<tr>
 									<th>Bid Price</th>
-									<td>219.35</td>
+									<td>219.45</td>
 								</tr>
 								<tr>
 									<th>Bid Qty</th>
-									<td>2,500</td>
+									<td>10,000</td>
 								</tr>
 								
 								<tr>
 				<th>Rollover %</th>
-				<td>32.77%</td>
+				<td>45.03%</td>
 			</tr>							</table>
 						</div>
 						<div class="FR PA10" style="width:200px;">
 							<table width="100%" class="tbldata">
 								<tr>
 									<th>Average Price</th>
-									<td>218.12</td>
+									<td>219.37</td>
 								</tr>
 								<tr>
 									<th>No. of Contracts Traded</th>
-									<td>4,202</td>
+									<td>1,348</td>
 								</tr>
 								<tr>
 									<th>Turnover (Rs. in lakhs)</th>
-									<td>22,913.51</td>
+									<td>7,392.77</td>
 								</tr>
 								<tr>
 									<th>Market Lot</th>
@@ -4351,30 +4328,30 @@ else{$("#"+a).fadeOut();}
 								</tr>
 								<tr>
 									<th>Open Interest</th>
-									<td>14,555,000</td>
+									<td>10,475,000</td>
 								</tr>
 								<tr>
 									<th>Open Int. Chg</th>
 									<!-- <td></td> -->
-									<td>707,500</td>
+									<td>162,500</td>
 								</tr>
 								<tr>
 									<th>Open Int. Chg %</th>
 									<!-- <td></td> -->
-									<td>5.11</td>
+									<td>1.58</td>
 								</tr>
 								<tr>
 									<th>Offer Price</th>
-									<td>219.50</td>
+									<td>219.70</td>
 								</tr>
 								<tr>
 									<th>Offer Qty</th>
-									<td>12,500</td>
+									<td>5,000</td>
 								</tr>
 
 								<tr>
 				<th>Rollover Cost</th>
-				<td>1.10</td>
+				<td>0.65</td>
 			</tr>							</table>
 						</div>
 						<div class="CL"></div>
@@ -4641,10 +4618,10 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>180.00</strong></span></td>
 			<td ><strong>0.05</strong></td>
-			<td ><span class='r_12'>-0.05</span></td>
-			<td >2,500</td>
-			<td >297,500</td>
-			<td ><span class='r_12'>-2,500</span></td>
+			<td ><span class='b_12'>-</span></td>
+			<td >10,000</td>
+			<td >290,000</td>
+			<td ><span class='r_12'>-7,500</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4666,9 +4643,9 @@ else{$("#"+a).fadeOut();}
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>185.00</strong></span></td>
 			<td ><strong>0.20</strong></td>
 			<td ><span class='b_12'>-</span></td>
-			<td >5,000</td>
-			<td >12,500</td>
-			<td ><span class='gr_12'>2,500</span></td>
+			<td >-</td>
+			<td >10,000</td>
+			<td ><span class='b_12'>-</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4689,10 +4666,10 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>190.00</strong></span></td>
 			<td ><strong>0.10</strong></td>
-			<td ><span class='r_12'>-0.10</span></td>
-			<td >32,500</td>
-			<td >167,500</td>
-			<td ><span class='r_12'>-15,000</span></td>
+			<td ><span class='b_12'>-</span></td>
+			<td >5,000</td>
+			<td >160,000</td>
+			<td ><span class='r_12'>-5,000</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4701,8 +4678,8 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>192.50</strong></span></td>
 			<td ><strong>0.25</strong></td>
-			<td ><span class='r_12'>-2.30</span></td>
-			<td >2,500</td>
+			<td ><span class='b_12'>-</span></td>
+			<td >-</td>
 			<td >35,000</td>
 			<td ><span class='b_12'>-</span></td>
 		</tr><tr>
@@ -4714,9 +4691,9 @@ else{$("#"+a).fadeOut();}
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>195.00</strong></span></td>
 			<td ><strong>0.25</strong></td>
 			<td ><span class='b_12'>-</span></td>
-			<td >112,500</td>
-			<td >95,000</td>
-			<td ><span class='r_12'>-35,000</span></td>
+			<td >5,000</td>
+			<td >92,500</td>
+			<td ><span class='r_12'>-2,500</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4730,17 +4707,17 @@ else{$("#"+a).fadeOut();}
 			<td >-</td>
 			<td ><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td class='ybg'><strong>20.40</strong></td>
-			<td class='ybg'><span class='gr_12'>1.85</span></td>
-			<td class='ybg'>22,500</td>
-			<td class='ybg'>40,000</td>
-			<td class='ybg'><span class='r_12'>-7,500</span></td>
+			<td class='ybg'><strong>18.80</strong></td>
+			<td class='ybg'><span class='r_12'>-1.60</span></td>
+			<td class='ybg'>2,500</td>
+			<td class='ybg'>42,500</td>
+			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>200.00</strong></span></td>
-			<td ><strong>0.20</strong></td>
-			<td ><span class='r_12'>-0.15</span></td>
-			<td >317,500</td>
-			<td >485,000</td>
-			<td ><span class='gr_12'>17,500</span></td>
+			<td ><strong>0.30</strong></td>
+			<td ><span class='gr_12'>0.10</span></td>
+			<td >15,000</td>
+			<td >475,000</td>
+			<td ><span class='r_12'>-7,500</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4750,21 +4727,21 @@ else{$("#"+a).fadeOut();}
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>202.50</strong></span></td>
 			<td ><strong>0.45</strong></td>
 			<td ><span class='b_12'>-</span></td>
-			<td >5,000</td>
+			<td >-</td>
 			<td >117,500</td>
-			<td ><span class='gr_12'>5,000</span></td>
+			<td ><span class='b_12'>-</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>14.15</strong></td>
-			<td class='ybg'><span class='gr_12'>0.10</span></td>
-			<td class='ybg'>10,000</td>
+			<td class='ybg'><span class='b_12'>-</span></td>
+			<td class='ybg'>-</td>
 			<td class='ybg'>25,000</td>
-			<td class='ybg'><span class='r_12'>-5,000</span></td>
+			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>205.00</strong></span></td>
-			<td ><strong>0.35</strong></td>
-			<td ><span class='r_12'>-0.25</span></td>
-			<td >357,500</td>
+			<td ><strong>0.30</strong></td>
+			<td ><span class='r_12'>-0.05</span></td>
+			<td >50,000</td>
 			<td >267,500</td>
-			<td ><span class='r_12'>-7,500</span></td>
+			<td ><span class='gr_12'>7,500</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4772,23 +4749,23 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>207.50</strong></span></td>
-			<td ><strong>0.60</strong></td>
-			<td ><span class='r_12'>-0.35</span></td>
-			<td >75,000</td>
-			<td >17,500</td>
-			<td ><span class='gr_12'>2,500</span></td>
+			<td ><strong>1.00</strong></td>
+			<td ><span class='gr_12'>0.40</span></td>
+			<td >7,500</td>
+			<td >22,500</td>
+			<td ><span class='gr_12'>5,000</span></td>
 		</tr><tr>
-			<td class='ybg'><strong>9.40</strong></td>
-			<td class='ybg'><span class='r_12'>-0.20</span></td>
-			<td class='ybg'>125,000</td>
-			<td class='ybg'>502,500</td>
-			<td class='ybg'><span class='r_12'>-7,500</span></td>
+			<td class='ybg'><strong>9.30</strong></td>
+			<td class='ybg'><span class='r_12'>-0.40</span></td>
+			<td class='ybg'>17,500</td>
+			<td class='ybg'>497,500</td>
+			<td class='ybg'><span class='r_12'>-5,000</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>210.00</strong></span></td>
-			<td ><strong>0.60</strong></td>
-			<td ><span class='r_12'>-0.70</span></td>
-			<td >415,000</td>
-			<td >390,000</td>
-			<td ><span class='gr_12'>10,000</span></td>
+			<td ><strong>0.50</strong></td>
+			<td ><span class='r_12'>-0.10</span></td>
+			<td >75,000</td>
+			<td >405,000</td>
+			<td ><span class='gr_12'>12,500</span></td>
 		</tr><tr>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4797,76 +4774,76 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>212.50</strong></span></td>
 			<td ><strong>0.85</strong></td>
-			<td ><span class='r_12'>-12.15</span></td>
-			<td >12,500</td>
-			<td >5,000</td>
-			<td ><span class='gr_12'>5,000</span></td>
+			<td ><span class='gr_12'>0.05</span></td>
+			<td >-</td>
+			<td >7,500</td>
+			<td ><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td class='ybg'><strong>5.95</strong></td>
-			<td class='ybg'><span class='r_12'>-0.35</span></td>
-			<td class='ybg'>572,500</td>
-			<td class='ybg'>207,500</td>
-			<td class='ybg'><span class='r_12'>-85,000</span></td>
+			<td class='ybg'><strong>5.70</strong></td>
+			<td class='ybg'><span class='r_12'>-0.10</span></td>
+			<td class='ybg'>100,000</td>
+			<td class='ybg'>195,000</td>
+			<td class='ybg'><span class='r_12'>-12,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>215.00</strong></span></td>
-			<td ><strong>1.65</strong></td>
-			<td ><span class='r_12'>-1.25</span></td>
-			<td >510,000</td>
-			<td >177,500</td>
-			<td ><span class='r_12'>-72,500</span></td>
+			<td ><strong>1.45</strong></td>
+			<td ><span class='r_12'>-0.30</span></td>
+			<td >125,000</td>
+			<td >142,500</td>
+			<td ><span class='r_12'>-30,000</span></td>
 		</tr><tr>
-			<td class='ybg'><strong>4.10</strong></td>
-			<td class='ybg'><span class='r_12'>-0.80</span></td>
-			<td class='ybg'>420,000</td>
-			<td class='ybg'>72,500</td>
-			<td class='ybg'><span class='r_12'>-17,500</span></td>
+			<td class='ybg'><strong>4.05</strong></td>
+			<td class='ybg'><span class='r_12'>-0.35</span></td>
+			<td class='ybg'>37,500</td>
+			<td class='ybg'>62,500</td>
+			<td class='ybg'><span class='r_12'>-10,000</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>217.50</strong></span></td>
-			<td ><strong>2.30</strong></td>
-			<td ><span class='r_12'>-2.05</span></td>
-			<td >120,000</td>
-			<td >82,500</td>
-			<td ><span class='gr_12'>67,500</span></td>
+			<td ><strong>2.40</strong></td>
+			<td ><span class='gr_12'>0.10</span></td>
+			<td >40,000</td>
+			<td >67,500</td>
+			<td ><span class='r_12'>-17,500</span></td>
 		</tr><tr>
-			<td ><strong>3.45</strong></td>
-			<td ><span class='r_12'>-0.50</span></td>
-			<td >3,610,000</td>
-			<td >1,322,500</td>
-			<td ><span class='r_12'>-420,000</span></td>
+			<td ><strong>3.20</strong></td>
+			<td ><span class='r_12'>-0.25</span></td>
+			<td >705,000</td>
+			<td >1,212,500</td>
+			<td ><span class='r_12'>-97,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>220.00</strong></span></td>
-			<td class='ybg'><strong>3.65</strong></td>
-			<td class='ybg'><span class='r_12'>-1.95</span></td>
-			<td class='ybg'>460,000</td>
-			<td class='ybg'>247,500</td>
-			<td class='ybg'><span class='gr_12'>62,500</span></td>
+			<td class='ybg'><strong>3.70</strong></td>
+			<td class='ybg'><span class='r_12'>-0.35</span></td>
+			<td class='ybg'>167,500</td>
+			<td class='ybg'>222,500</td>
+			<td class='ybg'><span class='r_12'>-25,000</span></td>
 		</tr><tr>
-			<td ><strong>2.60</strong></td>
-			<td ><span class='r_12'>-0.50</span></td>
-			<td >235,000</td>
-			<td >115,000</td>
-			<td ><span class='r_12'>-57,500</span></td>
+			<td ><strong>2.05</strong></td>
+			<td ><span class='r_12'>-0.55</span></td>
+			<td >70,000</td>
+			<td >135,000</td>
+			<td ><span class='gr_12'>20,000</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>222.50</strong></span></td>
-			<td class='ybg'><strong>6.00</strong></td>
-			<td class='ybg'><span class='r_12'>-3.00</span></td>
-			<td class='ybg'>10,000</td>
+			<td class='ybg'><strong>5.60</strong></td>
+			<td class='ybg'><span class='r_12'>-0.40</span></td>
+			<td class='ybg'>2,500</td>
 			<td class='ybg'>62,500</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>2.05</strong></td>
-			<td ><span class='r_12'>-0.30</span></td>
-			<td >1,780,000</td>
-			<td >952,500</td>
-			<td ><span class='gr_12'>30,000</span></td>
-			<td bgcolor='#f6f6f6'><span class='b_12'><strong>225.00</strong></span></td>
-			<td class='ybg'><strong>7.35</strong></td>
-			<td class='ybg'><span class='r_12'>-0.90</span></td>
-			<td class='ybg'>37,500</td>
-			<td class='ybg'>85,000</td>
-			<td class='ybg'><span class='r_12'>-15,000</span></td>
-		</tr><tr>
-			<td ><strong>1.45</strong></td>
+			<td ><strong>1.80</strong></td>
 			<td ><span class='r_12'>-0.25</span></td>
-			<td >40,000</td>
-			<td >170,000</td>
-			<td ><span class='gr_12'>15,000</span></td>
+			<td >490,000</td>
+			<td >875,000</td>
+			<td ><span class='r_12'>-30,000</span></td>
+			<td bgcolor='#f6f6f6'><span class='b_12'><strong>225.00</strong></span></td>
+			<td class='ybg'><strong>7.30</strong></td>
+			<td class='ybg'><span class='r_12'>-0.05</span></td>
+			<td class='ybg'>10,000</td>
+			<td class='ybg'>90,000</td>
+			<td class='ybg'><span class='gr_12'>5,000</span></td>
+		</tr><tr>
+			<td ><strong>1.15</strong></td>
+			<td ><span class='r_12'>-0.30</span></td>
+			<td >52,500</td>
+			<td >175,000</td>
+			<td ><span class='gr_12'>7,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>227.50</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4874,23 +4851,23 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>1.05</strong></td>
+			<td ><strong>0.95</strong></td>
 			<td ><span class='r_12'>-0.25</span></td>
-			<td >1,732,500</td>
-			<td >1,507,500</td>
-			<td ><span class='r_12'>-767,500</span></td>
+			<td >577,500</td>
+			<td >1,315,000</td>
+			<td ><span class='r_12'>-170,000</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>230.00</strong></span></td>
-			<td class='ybg'><strong>12.20</strong></td>
-			<td class='ybg'><span class='r_12'>-3.15</span></td>
-			<td class='ybg'>10,000</td>
-			<td class='ybg'>45,000</td>
+			<td class='ybg'><strong>11.85</strong></td>
+			<td class='ybg'><span class='r_12'>-0.35</span></td>
+			<td class='ybg'>7,500</td>
+			<td class='ybg'>47,500</td>
 			<td class='ybg'><span class='gr_12'>2,500</span></td>
 		</tr><tr>
-			<td ><strong>0.75</strong></td>
-			<td ><span class='r_12'>-0.25</span></td>
-			<td >70,000</td>
-			<td >120,000</td>
-			<td ><span class='r_12'>-55,000</span></td>
+			<td ><strong>0.85</strong></td>
+			<td ><span class='gr_12'>0.10</span></td>
+			<td >5,000</td>
+			<td >122,500</td>
+			<td ><span class='gr_12'>2,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>232.50</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4898,11 +4875,11 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>0.65</strong></td>
-			<td ><span class='r_12'>-0.15</span></td>
-			<td >397,500</td>
-			<td >387,500</td>
-			<td ><span class='r_12'>-45,000</span></td>
+			<td ><strong>0.45</strong></td>
+			<td ><span class='r_12'>-0.20</span></td>
+			<td >102,500</td>
+			<td >395,000</td>
+			<td ><span class='gr_12'>12,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>235.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4922,15 +4899,15 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>0.35</strong></td>
-			<td ><span class='r_12'>-0.15</span></td>
-			<td >430,000</td>
-			<td >860,000</td>
-			<td ><span class='r_12'>-110,000</span></td>
+			<td ><strong>0.25</strong></td>
+			<td ><span class='r_12'>-0.05</span></td>
+			<td >107,500</td>
+			<td >805,000</td>
+			<td ><span class='r_12'>-52,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>240.00</strong></span></td>
 			<td class='ybg'><strong>19.75</strong></td>
-			<td class='ybg'><span class='r_12'>-6.70</span></td>
-			<td class='ybg'>5,000</td>
+			<td class='ybg'><span class='b_12'>-</span></td>
+			<td class='ybg'>-</td>
 			<td class='ybg'>12,500</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
@@ -4946,11 +4923,11 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>0.25</strong></td>
-			<td ><span class='r_12'>-0.05</span></td>
-			<td >32,500</td>
-			<td >117,500</td>
-			<td ><span class='r_12'>-7,500</span></td>
+			<td ><strong>0.15</strong></td>
+			<td ><span class='r_12'>-0.15</span></td>
+			<td >2,500</td>
+			<td >110,000</td>
+			<td ><span class='r_12'>-2,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>245.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4970,11 +4947,11 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>0.15</strong></td>
-			<td ><span class='r_12'>-0.10</span></td>
-			<td >290,000</td>
-			<td >700,000</td>
-			<td ><span class='r_12'>-187,500</span></td>
+			<td ><strong>0.10</strong></td>
+			<td ><span class='r_12'>-0.05</span></td>
+			<td >70,000</td>
+			<td >685,000</td>
+			<td ><span class='r_12'>-10,000</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>250.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -4994,10 +4971,10 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'>-</td>
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
-			<td ><strong>0.20</strong></td>
-			<td ><span class='gr_12'>0.05</span></td>
-			<td >5,000</td>
-			<td >25,000</td>
+			<td ><strong>0.10</strong></td>
+			<td ><span class='r_12'>-0.10</span></td>
+			<td >2,500</td>
+			<td >22,500</td>
 			<td ><span class='r_12'>-2,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>255.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
@@ -5020,9 +4997,9 @@ else{$("#"+a).fadeOut();}
 		</tr><tr>
 			<td ><strong>0.05</strong></td>
 			<td ><span class='r_12'>-0.05</span></td>
-			<td >45,000</td>
-			<td >270,000</td>
-			<td ><span class='gr_12'>2,500</span></td>
+			<td >7,500</td>
+			<td >267,500</td>
+			<td ><span class='r_12'>-2,500</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>260.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -5067,10 +5044,10 @@ else{$("#"+a).fadeOut();}
 			<td class='ybg'><span class='b_12'>-</span></td>
 		</tr><tr>
 			<td ><strong>0.05</strong></td>
-			<td ><span class='r_12'>-0.05</span></td>
-			<td >22,500</td>
+			<td ><span class='b_12'>-</span></td>
+			<td >-</td>
 			<td >340,000</td>
-			<td ><span class='r_12'>-10,000</span></td>
+			<td ><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>270.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -5116,9 +5093,9 @@ else{$("#"+a).fadeOut();}
 		</tr><tr>
 			<td ><strong>0.05</strong></td>
 			<td ><span class='b_12'>-</span></td>
-			<td >12,500</td>
+			<td >-</td>
 			<td >60,000</td>
-			<td ><span class='r_12'>-12,500</span></td>
+			<td ><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>280.00</strong></span></td>
 			<td class='ybg'><strong>-</strong></td>
 			<td class='ybg'><span class='b_12'>-</span></td>
@@ -5212,7 +5189,7 @@ else{$("#"+a).fadeOut();}
 		</tr><tr>
 			<td ><strong>0.05</strong></td>
 			<td ><span class='b_12'>-</span></td>
-			<td >5,000</td>
+			<td >2,500</td>
 			<td >210,000</td>
 			<td ><span class='b_12'>-</span></td>
 			<td bgcolor='#f6f6f6'><span class='b_12'><strong>300.00</strong></span></td>
@@ -5253,27 +5230,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>14,555,000</td>
-										<td>707,500</td>
-										<td class="gr_11">5.11%</td>
+										<td>10,475,000</td>
+										<td>162,500</td>
+										<td class="gr_11">1.58%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
-										<td>8,050,000</td>
-										<td>-1,750,000</td>
-										<td class="r_11">-17.86%</td>
+										<td>7,597,500</td>
+										<td>-352,500</td>
+										<td class="r_11">-4.43%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>2,730,000</td>
-										<td>27,500</td>
-										<td class="gr_11">1.02%</td>
+										<td>2,655,000</td>
+										<td>-62,500</td>
+										<td class="r_11">-2.30%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>25,335,000</th>
-										<th>-1,015,000</th>
-										<th class="r_11">-3.85%</th>
+										<th>20,727,500</th>
+										<th>-252,500</th>
+										<th class="r_11">-1.20%</th>
 									</tr>
 								</table>
 							</div>
@@ -5290,27 +5267,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>6,862,500</td>
-										<td>4,232,500</td>
-										<td class="gr_11">160.93%</td>
+										<td>8,320,000</td>
+										<td>1,517,500</td>
+										<td class="gr_11">22.31%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
-										<td>1,105,000</td>
-										<td>645,000</td>
-										<td class="gr_11">140.22%</td>
+										<td>1,320,000</td>
+										<td>200,000</td>
+										<td class="gr_11">17.86%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>432,500</td>
-										<td>147,500</td>
-										<td class="gr_11">51.75%</td>
+										<td>477,500</td>
+										<td>20,000</td>
+										<td class="gr_11">4.37%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>8,400,000</th>
-										<th>5,025,000</th>
-										<th class="gr_11">148.89%</th>
+										<th>10,117,500</th>
+										<th>1,737,500</th>
+										<th class="gr_11">20.73%</th>
 									</tr>
 								</table>
 							</div>
@@ -5327,27 +5304,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>232,500</td>
-										<td>112,500</td>
-										<td class="gr_11">93.75%</td>
+										<td>262,500</td>
+										<td>27,500</td>
+										<td class="gr_11">11.70%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
-										<td>15,000</td>
-										<td>15,000</td>
-										<td class="gr_11">0.00%</td>
+										<td>17,500</td>
+										<td>2,500</td>
+										<td class="gr_11">16.67%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>15,000</td>
-										<td>0</td>
-										<td class="b_11">0.00%</td>
+										<td>77,500</td>
+										<td>62,500</td>
+										<td class="gr_11">416.67%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>262,500</th>
-										<th>127,500</th>
-										<th class="gr_11">94.44%</th>
+										<th>357,500</th>
+										<th>92,500</th>
+										<th class="gr_11">34.91%</th>
 									</tr>
 								</table>
 							</div>
@@ -5379,27 +5356,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>10,505,000</td>
-										<td>2,577,500</td>
-										<td class="gr_11">32.51%</td>
+										<td>3,370,000</td>
+										<td>-7,135,000</td>
+										<td class="r_11">-67.92%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
-										<td>9,857,500</td>
-										<td>-3,280,000</td>
-										<td class="r_11">-24.97%</td>
+										<td>2,352,500</td>
+										<td>-7,505,000</td>
+										<td class="r_11">-76.13%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>2,490,000</td>
-										<td>-935,000</td>
-										<td class="r_11">-27.30%</td>
+										<td>520,000</td>
+										<td>-1,970,000</td>
+										<td class="r_11">-79.12%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>22,852,500</th>
-										<th>-1,637,500</th>
-										<th class="r_11">-6.69%</th>
+										<th>6,242,500</th>
+										<th>-16,610,000</th>
+										<th class="r_11">-72.68%</th>
 									</tr>
 								</table>
 							</div>
@@ -5416,27 +5393,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>7,827,500</td>
-										<td>5,407,500</td>
-										<td class="gr_11">223.45%</td>
+										<td>3,482,500</td>
+										<td>-4,345,000</td>
+										<td class="r_11">-55.51%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
-										<td>1,920,000</td>
-										<td>1,485,000</td>
-										<td class="gr_11">341.38%</td>
+										<td>565,000</td>
+										<td>-1,355,000</td>
+										<td class="r_11">-70.57%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>280,000</td>
-										<td>162,500</td>
-										<td class="gr_11">138.30%</td>
+										<td>50,000</td>
+										<td>-230,000</td>
+										<td class="r_11">-82.14%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>10,027,500</th>
-										<th>7,055,000</th>
-										<th class="gr_11">237.34%</th>
+										<th>4,097,500</th>
+										<th>-5,930,000</th>
+										<th class="r_11">-59.14%</th>
 									</tr>
 								</table>
 							</div>
@@ -5453,27 +5430,27 @@ else{$("#"+a).fadeOut();}
 									</tr>
 									<tr>
 										<th><div align="left">Future</div></th>
-										<td>237,500</td>
-										<td>167,500</td>
-										<td class="gr_11">239.29%</td>
+										<td>60,000</td>
+										<td>-177,500</td>
+										<td class="r_11">-74.74%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Call</div></th>
 										<td>15,000</td>
-										<td>15,000</td>
-										<td class="gr_11">0.00%</td>
+										<td>0</td>
+										<td class="b_11">0.00%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Put</div></th>
-										<td>0</td>
-										<td>-2,500</td>
-										<td class="r_11">-100.00%</td>
+										<td>77,500</td>
+										<td>77,500</td>
+										<td class="gr_11">0.00%</td>
 									</tr>
 									<tr>
 										<th><div align="left">Total</div></th>
-										<th>252,500</th>
-										<th>180,000</th>
-										<th class="gr_11">248.28%</th>
+										<th>152,500</th>
+										<th>-100,000</th>
+										<th class="r_11">-39.60%</th>
 									</tr>
 								</table>
 							</div>
@@ -5496,9 +5473,9 @@ else{$("#"+a).fadeOut();}
 					</tr>
 					<tr>
 						<th><div align="left">Apollo Tyres</div></th>
-						<td>33,997,500</td>
+						<td>31,202,500</td>
 						<td>3,350,691</td>
-						<td class="gr_12">1,014.64%</td>
+						<td class="gr_12">931.23%</td>
 					</tr>
 					</tbody>
 				</table>
@@ -5539,24 +5516,24 @@ get_oi_analysis("1", "AT", "2021-05-27")
 									</tr>
 									<tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 220.00</td>
-			<td>3.45</td>
-			<td>3,610,000</td>
-		</tr><tr>
-			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 225.00</td>
-			<td>2.05</td>
-			<td>1,780,000</td>
+			<td>3.20</td>
+			<td>705,000</td>
 		</tr><tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 230.00</td>
-			<td>1.05</td>
-			<td>1,732,500</td>
+			<td>0.95</td>
+			<td>577,500</td>
 		</tr><tr>
-			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 215.00</td>
-			<td>5.95</td>
-			<td>572,500</td>
+			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 225.00</td>
+			<td>1.80</td>
+			<td>490,000</td>
 		</tr><tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 240.00</td>
-			<td>0.35</td>
-			<td>430,000</td>
+			<td>0.25</td>
+			<td>107,500</td>
+		</tr><tr>
+			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 235.00</td>
+			<td>0.45</td>
+			<td>102,500</td>
 		</tr>								</table>
 							</div>
 						</div>
@@ -5574,25 +5551,25 @@ get_oi_analysis("1", "AT", "2021-05-27")
 										<th>Volumes</th>
 									</tr>
 									<tr>
-			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 215.00</td>
-			<td>1.65</td>
-			<td>510,000</td>
-		</tr><tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 220.00</td>
-			<td>3.65</td>
-			<td>460,000</td>
+			<td>3.70</td>
+			<td>167,500</td>
+		</tr><tr>
+			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 215.00</td>
+			<td>1.45</td>
+			<td>125,000</td>
 		</tr><tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 210.00</td>
-			<td>0.60</td>
-			<td>415,000</td>
+			<td>0.50</td>
+			<td>75,000</td>
 		</tr><tr>
 			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 205.00</td>
-			<td>0.35</td>
-			<td>357,500</td>
+			<td>0.30</td>
+			<td>50,000</td>
 		</tr><tr>
-			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 200.00</td>
-			<td>0.20</td>
-			<td>317,500</td>
+			<td style='text-align:left;'>APOLLOTYRE 27May2021 - 217.50</td>
+			<td>2.40</td>
+			<td>40,000</td>
 		</tr>								</table>
 							</div>
 						</div>
@@ -5605,7 +5582,7 @@ get_oi_analysis("1", "AT", "2021-05-27")
 						<div class="brdb PB5">
 							<div class="FL">
 								<div class="FL" align="right" style="width:80px;"><strong>Market Cap</strong></div>
-								<div class="FL" align="right" style="width:80px;">13,905.54</div>
+								<div class="FL" align="right" style="width:80px;">13,934.11</div>
 								<div class="CL"></div>                            	
 							</div>
 							<div class="FL">
@@ -5615,12 +5592,12 @@ get_oi_analysis("1", "AT", "2021-05-27")
 							</div>
 							<div class="FL">
 								<div class="FL" align="right" style="width:130px;"><strong><span class="r_12">*</span> P/E</strong></div>
-								<div class="FL" align="right" style="width:45px;">19.24</div>
+								<div class="FL" align="right" style="width:45px;">19.28</div>
 								<div class="CL"></div>                            	
 							</div>
 							<div class="FL">
 								<div class="FL" align="right" style="width:150px;"><strong><span class="r_12">*</span> P/C</strong></div>
-								<div class="FL" align="right" style="width:80px;">9.68</div>
+								<div class="FL" align="right" style="width:80px;">9.70</div>
 								<div class="CL"></div>                            	
 							</div>
 							<div class="CL"></div>
@@ -5643,7 +5620,7 @@ get_oi_analysis("1", "AT", "2021-05-27")
 							</div>
 							<div class="FL">
 								<div class="FL" align="right" style="width:150px;"><strong>Industry P/E</strong></div>
-								<div class="FL" align="right" style="width:80px;">23.79</div>
+								<div class="FL" align="right" style="width:80px;">23.94</div>
 								<div class="CL"></div>
 							</div>
 							<div class="CL"></div>

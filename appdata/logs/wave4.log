@@ -1,60 +1,15 @@
-[2021-05-24 19:15:26] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Loading Data... From 20210525 To 20210524
-[2021-05-24 19:15:26] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Processing bhavcopy... cm25MAY2021bhav.csv
-[2021-05-24 19:15:26] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Downloading: https://archives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm25MAY2021bhav.csv.zip
-[2021-05-24 19:15:28] [INFO] [com.wave4traders.utils.ATUtil printTrades] ############ Live Trades Summary ################
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Processing bhavcopy...
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Processing date... 2021-05-25
+[2021-05-25 01:17:56] [INFO] [com.wave4traders.datafeeds.BhavHandler processBhavcopy] Done.
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil printTrades] ############ Live Trades Summary ################
 
-[2021-05-24 19:15:28] [INFO] [com.wave4traders.utils.ATUtil printTrades] Total Trades: 2, Overall Profit: 0.19%,
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil printTrades] Total Trades: 2, Overall Profit: 0.19%,
 
-[2021-05-24 19:15:38] [SEVERE] [com.wave4traders.utils.ATUtil downloadFile] Read timed out
-java.net.SocketTimeoutException: Read timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
-	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
-	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
-	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
-	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
-	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1444)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1048)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
-	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:788)
-	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:723)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1676)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
-	at com.wave4traders.utils.ATUtil.downloadFile(ATUtil.java:528)
-	at com.wave4traders.datafeeds.BhavHandler.processBhavcopy(BhavHandler.java:93)
-	at com.wave4traders.view.HomeScreenController.lambda$handleReloadBars$82(HomeScreenController.java:901)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-
-[2021-05-24 19:15:39] [WARNING] [com.wave4traders.utils.ATUtil downloadFile] Retry Countdown...100
-[2021-05-24 19:15:49] [SEVERE] [com.wave4traders.utils.ATUtil downloadFile] Read timed out
-java.net.SocketTimeoutException: Read timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
-	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
-	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
-	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
-	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:976)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
-	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
-	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1444)
-	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1048)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
-	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:788)
-	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:723)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1676)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
-	at com.wave4traders.utils.ATUtil.downloadFile(ATUtil.java:528)
-	at com.wave4traders.datafeeds.BhavHandler.processBhavcopy(BhavHandler.java:93)
-	at com.wave4traders.view.HomeScreenController.lambda$handleReloadBars$82(HomeScreenController.java:901)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-
-[2021-05-24 19:15:50] [WARNING] [com.wave4traders.utils.ATUtil downloadFile] Retry Countdown...99
-[2021-05-24 19:15:53] [INFO] [com.wave4traders.AlgoTrader stop] AlgoTrader is closed...!
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.managers.BarSeriesManager getBarSeries] BarSeries last updated: 24-05-2021 03:30 pm Nifty 50
+[2021-05-25 01:17:57] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Downloading: https://zerodha.com/margin-calculator/Futures
+[2021-05-25 01:17:58] [INFO] [com.wave4traders.utils.ATUtil downloadFile] Done.
+[2021-05-25 01:17:58] [INFO] [com.wave4traders.datafeeds.MarginZrdha parseMarginFile] Margin Last updated: 24 May 2021
+[2021-05-25 01:17:59] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] Old chart is updated for Nifty 50
+[2021-05-25 01:18:01] [INFO] [com.wave4traders.managers.BarSeriesManager getBarSeries] BarSeries last updated: 24-05-2021 03:30 pm NTPC
+[2021-05-25 01:18:01] [INFO] [com.wave4traders.view.HomeScreenController lambda$handleChartAddition$86] New chart is added for NTPC
+[2021-05-25 01:20:06] [INFO] [com.wave4traders.AlgoTrader stop] AlgoTrader is closed...!

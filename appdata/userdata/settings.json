@@ -245,7 +245,7 @@
       "classpath": "com.wave4traders.strategies.SuperTrendLongStrategy",
       "name": "SuperTrendLong",
       "value": 0,
-      "selected": false
+      "selected": true
     },
     {
       "classpath": "com.wave4traders.strategies.SuperTrendShortStrategy",
@@ -663,7 +663,7 @@
     },
     "ST_PRACTISEDATE": {
       "name": "PraticeDate",
-      "value": 20200508,
+      "value": 20200526,
       "selected": false
     },
     "ST_USERID": {
